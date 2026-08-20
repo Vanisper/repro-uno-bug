@@ -2,6 +2,7 @@ import { presetUni } from '@uni-helper/unocss-preset-uni'
 import {
   defineConfig,
   presetIcons,
+  presetWind3,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
@@ -9,6 +10,7 @@ import {
 export default defineConfig({
   presets: [
     presetUni(),
+    presetWind3(),
     presetIcons({
       scale: 1.2,
       warn: true,
